@@ -3,7 +3,7 @@ package com.example.week6.pojo;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-@Document("Book")
+@Document("Wizard")
 public class Wizard {
     @Id
     private String _id;
